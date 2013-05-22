@@ -25,6 +25,7 @@ PRODUCT_PROPERTY_OVERRIDES := \
   wifi.tethering.interface=ap0 \
   wifi.direct.interface=p2p0
   
-
+# Copy modules
 PRODUCT_COPY_FILES += \
+		
 	
