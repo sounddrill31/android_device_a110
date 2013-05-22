@@ -1,0 +1,9 @@
+# Correct bootanimation size for the screen
+TARGET_SCREEN_HEIGHT := 800
+TARGET_SCREEN_WIDTH := 480
+
+PRODUCT_NAME := cm_a110
+PRODUCT_DEVICE :=a110
+PRODUCT_BRAND := Micromax
+PRODUCT_MANUFACTURER := Micromax
+PRODUCT_MODEL := Micromax A110 Canvas 2
