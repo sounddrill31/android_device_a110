@@ -27,5 +27,5 @@ PRODUCT_PROPERTY_OVERRIDES := \
   
 # Copy modules
 PRODUCT_COPY_FILES += \
-		
+	device/micromax/a110/prebuilt/lib/modules/*.ko:system/lib/modules/*.ko	
 	
