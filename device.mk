@@ -104,4 +104,21 @@ PRODUCT_COPY_FILES += \
 	device/micromax/a110/prebuilt/features/android.software.sip.xml:system/etc/permissions/android.software.sip.xml \
 	device/micromax/a110/prebuilt/features/gpsconfig.xml:system/etc/permissions/gpsconfig.xml
 	
+# Copy Input files
+	device/micromax/a110/prebuilt/usr/keylayout/ACCDET.kl:system/usr/keylayout/ACCDET.kl \
+	device/micromax/a110/prebuilt/usr/keylayout/AVRCP.kl:system/usr/keylayout/AVRCP.kl \
+	device/micromax/a110/prebuilt/usr/keylayout/Generic.kl:system/usr/keylayout/Generic.kl \
+	device/micromax/a110/prebuilt/usr/keylayout/mhl-keyboard.kl:system/usr/keylayout/mhl-keyboard.kl \
+	device/micromax/a110/prebuilt/usr/keylayout/mtk-kpd.kl:system/usr/keylayout/mtk-kpd.kl \
+	device/micromax/a110/prebuilt/usr/keylayout/qwerty.kl:system/usr/keylayout/qwerty.kl \
+	device/micromax/a110/prebuilt/usr/keylayout/Vendor_045e_Product_028e.kl:system/usr/keylayout/Vendor_045e_Product_028e.kl \
+	device/micromax/a110/prebuilt/usr/keylayout/Vendor_046d_Product_c216.kl:system/usr/keylayout/Vendor_046d_Product_c216.kl \
+	device/micromax/a110/prebuilt/usr/keylayout/Vendor_046d_Product_c294.kl:system/usr/keylayout/Vendor_046d_Product_c294.kl \
+	device/micromax/a110/prebuilt/usr/keylayout/Vendor_046d_Product_c299.kl:system/usr/keylayout/Vendor_046d_Product_c299.kl \
+	device/micromax/a110/prebuilt/usr/keylayout/Vendor_046d_Product_c532.kl:system/usr/keylayout/Vendor_046d_Product_c532.kl \
+	device/micromax/a110/prebuilt/usr/keylayout/Vendor_054c_Product_0268.kl:system/usr/keylayout/Vendor_054c_Product_0268.kl \
+	device/micromax/a110/prebuilt/usr/keylayout/Vendor_05ac_Product_0239.kl:system/usr/keylayout/Vendor_05ac_Product_0239.kl \
+	device/micromax/a110/prebuilt/usr/keylayout/Vendor_22b8_Product_093d.kl:system/usr/keylayout/Vendor_22b8_Product_093d.kl \
+	device/micromax/a110/prebuilt/usr/idc/mhl-keyboard.idc:system/usr/idc/mhl-keyboard.idc
+	
 	
