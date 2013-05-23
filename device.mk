@@ -17,7 +17,6 @@
 
 PRODUCT_PROPERTY_OVERRIDES := \
   rild.libpath=/system/lib/mtk-ril.so \
-  rild.libargs=-d /dev/ttyC0 \
   wifi.interface=wlan0 \
   ro.mediatek.wlan.wsc=1 \
   ro.mediatek.wlan.p2p=1 \
@@ -27,5 +26,65 @@ PRODUCT_PROPERTY_OVERRIDES := \
   
 # Copy modules
 PRODUCT_COPY_FILES += \
-	device/micromax/a110/prebuilt/lib/modules/*.ko:system/lib/modules/*.ko	
+	device/micromax/a110/prebuilt/lib/modules/ccci.ko:system/lib/modules/ccci.ko \
+	device/micromax/a110/prebuilt/lib/modules/ccci_plat.ko:system/lib/modules/ccci_plat.ko \
+	device/micromax/a110/prebuilt/lib/modules/ccmni.ko:system/lib/modules/ccmni.ko \
+	device/micromax/a110/prebuilt/lib/modules/devapc.ko:system/lib/modules/devapc.ko \
+	device/micromax/a110/prebuilt/lib/modules/devinfo.ko:system/lib/modules/devinfo.ko \
+	device/micromax/a110/prebuilt/lib/modules/eeprom_93cx6.ko:system/lib/modules/eeprom_93cx6.ko \
+	device/micromax/a110/prebuilt/lib/modules/hid-logitech-dj.ko:system/lib/modules/hid-logitech-dj.ko \
+	device/micromax/a110/prebuilt/lib/modules/m4u.ko:system/lib/modules/m4u.ko \
+	device/micromax/a110/prebuilt/lib/modules/mtk_fm_drv.ko:system/lib/modules/mtk_fm_drv.ko \
+	device/micromax/a110/prebuilt/lib/modules/mtk_fm_priv.ko:system/lib/modules/mtk_fm_priv.ko \
+	device/micromax/a110/prebuilt/lib/modules/mtk_hif_sdio.ko:system/lib/modules/mtk_hif_sdio.ko \
+	device/micromax/a110/prebuilt/lib/modules/mtk_hif_sdio_mt6620.ko:system/lib/modules/mtk_hif_sdio_mt6620.ko \
+	device/micromax/a110/prebuilt/lib/modules/mtk_hif_sdio_mt6628.ko:system/lib/modules/mtk_hif_sdio_mt6628.ko \
+	device/micromax/a110/prebuilt/lib/modules/mtk_stp_bt.ko:system/lib/modules/mtk_stp_bt.ko \
+	device/micromax/a110/prebuilt/lib/modules/mtk_stp_bt_mt6620.ko:system/lib/modules/mtk_stp_bt_mt6620.ko \
+	device/micromax/a110/prebuilt/lib/modules/mtk_stp_bt_mt6628.ko:system/lib/modules/mtk_stp_bt_mt6628.ko \
+	device/micromax/a110/prebuilt/lib/modules/mtk_stp_gps.ko:system/lib/modules/mtk_stp_gps.ko \
+	device/micromax/a110/prebuilt/lib/modules/mtk_stp_gps_mt6620.ko:system/lib/modules/mtk_stp_gps_mt6620.ko \
+	device/micromax/a110/prebuilt/lib/modules/mtk_stp_gps_mt6628.ko:system/lib/modules/mtk_stp_gps_mt6628.ko \
+	device/micromax/a110/prebuilt/lib/modules/mtk_stp_uart.ko:system/lib/modules/mtk_stp_uart.ko \
+	device/micromax/a110/prebuilt/lib/modules/mtk_stp_uart_mt6620.ko:system/lib/modules/mtk_stp_uart_mt6620.ko \
+	device/micromax/a110/prebuilt/lib/modules/mtk_stp_uart_mt6628.ko:system/lib/modules/mtk_stp_uart_mt6628.ko \
+	device/micromax/a110/prebuilt/lib/modules/mtk_stp_wmt.ko:system/lib/modules/mtk_stp_wmt.ko \
+	device/micromax/a110/prebuilt/lib/modules/mtk_stp_wmt_mt6620.ko:system/lib/modules/mtk_stp_wmt_mt6620.ko \
+	device/micromax/a110/prebuilt/lib/modules/mtk_stp_wmt_mt6628.ko:system/lib/modules/mtk_stp_wmt_mt6628.ko \
+	device/micromax/a110/prebuilt/lib/modules/mtk_wmt_wifi.ko:system/lib/modules/mtk_wmt_wifi.ko \
+	device/micromax/a110/prebuilt/lib/modules/mtk_wmt_wifi_mt6620.ko:system/lib/modules/mtk_wmt_wifi_mt6620.ko \
+	device/micromax/a110/prebuilt/lib/modules/mtk_wmt_wifi_mt6628.ko:system/lib/modules/mtk_wmt_wifi_mt6628.ko \
+	device/micromax/a110/prebuilt/lib/modules/mtklfb.ko:system/lib/modules/mtklfb.ko \
+	device/micromax/a110/prebuilt/lib/modules/pvrsrvkm.ko:system/lib/modules/pvrsrvkm.ko \
+	device/micromax/a110/prebuilt/lib/modules/scsi_tgt.ko:system/lib/modules/scsi_tgt.ko \
+	device/micromax/a110/prebuilt/lib/modules/scsi_wait_scan.ko:system/lib/modules/scsi_wait_scan.ko \
+	device/micromax/a110/prebuilt/lib/modules/sec.ko:system/lib/modules/sec.ko \
+	device/micromax/a110/prebuilt/lib/modules/vcodec_kernel_driver.ko:system/lib/modules/vcodec_kernel_driver.ko \
+	device/micromax/a110/prebuilt/lib/modules/wlan.ko:system/lib/modules/wlan.ko \
+	device/micromax/a110/prebuilt/lib/modules/wlan_mt6620.ko:system/lib/modules/wlan_mt6620.ko \
+	device/micromax/a110/prebuilt/lib/modules/wlan_mt6628.ko:system/lib/modules/wlan_mt6628.ko
+	
+# Copy features
+PRODUCT_COPY_FILES += \
+	device/micromax/a110/prebuilt/features/android.hardware.bluetooth.xml:system/etc/permissions/android.hardware.bluetooth.xml \
+	device/micromax/a110/prebuilt/features/android.hardware.camera.xml:system/etc/permissions/android.hardware.camera.xml \
+	device/micromax/a110/prebuilt/features/android.hardware.faketouch.xml:system/etc/permissions/android.hardware.faketouch.xml \
+	device/micromax/a110/prebuilt/features/android.hardware.location.gps.xml:system/etc/permissions/android.hardware.location.gps.xml \
+	device/micromax/a110/prebuilt/features/android.hardware.microphone.xml:system/etc/permissions/android.hardware.microphone.xml \
+	device/micromax/a110/prebuilt/features/android.hardware.sensor.accelerometer.xml:system/etc/permissions/android.hardware.sensor.accelerometer.xml \
+	device/micromax/a110/prebuilt/features/android.hardware.sensor.compass.xml:system/etc/permissions/android.hardware.sensor.compass.xml \
+	device/micromax/a110/prebuilt/features/android.hardware.sensor.light.xml:system/etc/permissions/android.hardware.sensor.light.xml \
+	device/micromax/a110/prebuilt/features/android.hardware.sensor.proximity.xml:system/etc/permissions/android.hardware.sensor.proximity.xml \
+	device/micromax/a110/prebuilt/features/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml \
+	device/micromax/a110/prebuilt/features/android.hardware.touchscreen.multitouch.distinct.xml:system/etc/permissions/android.hardware.touchscreen.multitouch.distinct.xml \
+	device/micromax/a110/prebuilt/features/android.hardware.touchscreen.multitouch.jazzhand.xml:system/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.xml \
+	device/micromax/a110/prebuilt/features/android.hardware.touchscreen.multitouch.xml:system/etc/permissions/android.hardware.touchscreen.multitouch.xml \
+	device/micromax/a110/prebuilt/features/android.hardware.usb.host.xml:system/etc/permissions/android.hardware.usb.host.xml \
+	device/micromax/a110/prebuilt/features/android.hardware.wifi.direct.xml:system/etc/permissions/android.hardware.wifi.direct.xml \
+	device/micromax/a110/prebuilt/features/android.hardware.wifi.xml:system/etc/permissions/android.hardware.wifi.xml \
+	device/micromax/a110/prebuilt/features/android.software.live_wallpaper.xml:system/etc/permissions/android.software.live_wallpaper.xml \
+	device/micromax/a110/prebuilt/features/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml \
+	device/micromax/a110/prebuilt/features/android.software.sip.xml:system/etc/permissions/android.software.sip.xml \
+	device/micromax/a110/prebuilt/features/gpsconfig.xml:system/etc/permissions/gpsconfig.xml
+	
 	
