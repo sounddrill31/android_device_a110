@@ -26,41 +26,42 @@ PRODUCT_PROPERTY_OVERRIDES := \
   
 # Copy modules
 PRODUCT_COPY_FILES += \
+	device/micromax/a110/prebuilt/lib/modules/aed.ko:system/lib/modules/aed.ko \
+	device/micromax/a110/prebuilt/lib/modules/alps_core.ko:system/lib/modules/alps_core.ko \
 	device/micromax/a110/prebuilt/lib/modules/ccci.ko:system/lib/modules/ccci.ko \
+	device/micromax/a110/prebuilt/lib/modules/cfg80211.ko:system/lib/modules/cfg80211.ko \
 	device/micromax/a110/prebuilt/lib/modules/ccci_plat.ko:system/lib/modules/ccci_plat.ko \
 	device/micromax/a110/prebuilt/lib/modules/ccmni.ko:system/lib/modules/ccmni.ko \
 	device/micromax/a110/prebuilt/lib/modules/devapc.ko:system/lib/modules/devapc.ko \
 	device/micromax/a110/prebuilt/lib/modules/devinfo.ko:system/lib/modules/devinfo.ko \
 	device/micromax/a110/prebuilt/lib/modules/eeprom_93cx6.ko:system/lib/modules/eeprom_93cx6.ko \
-	device/micromax/a110/prebuilt/lib/modules/hid-logitech-dj.ko:system/lib/modules/hid-logitech-dj.ko \
+	device/micromax/a110/prebuilt/lib/modules/mtk_drvb_77.ko.ko:system/lib/modules/mtk_drvb_77.ko.ko \
 	device/micromax/a110/prebuilt/lib/modules/m4u.ko:system/lib/modules/m4u.ko \
+	device/micromax/a110/prebuilt/lib/modules/p2p_mt6628.ko:system/lib/modules/p2p_mt6628.ko \
+	device/micromax/a110/prebuilt/lib/modules/p2p_mt6620.ko:system/lib/modules/p2p_mt6620.ko \
+	device/micromax/a110/prebuilt/lib/modules/mtk_stp_sdio.ko:system/lib/modules/mtk_stp_sdio.ko \
+	device/micromax/a110/prebuilt/lib/modules/mtk_stp_sdio_mt6620.ko:system/lib/modules/mtk_stp_sdio_mt6620.ko \
+	device/micromax/a110/prebuilt/lib/modules/mtk_hwe.ko:system/lib/modules/mtk_hwe.ko \
 	device/micromax/a110/prebuilt/lib/modules/mtk_fm_drv.ko:system/lib/modules/mtk_fm_drv.ko \
 	device/micromax/a110/prebuilt/lib/modules/mtk_fm_priv.ko:system/lib/modules/mtk_fm_priv.ko \
 	device/micromax/a110/prebuilt/lib/modules/mtk_hif_sdio.ko:system/lib/modules/mtk_hif_sdio.ko \
 	device/micromax/a110/prebuilt/lib/modules/mtk_hif_sdio_mt6620.ko:system/lib/modules/mtk_hif_sdio_mt6620.ko \
-	device/micromax/a110/prebuilt/lib/modules/mtk_hif_sdio_mt6628.ko:system/lib/modules/mtk_hif_sdio_mt6628.ko \
 	device/micromax/a110/prebuilt/lib/modules/mtk_stp_bt.ko:system/lib/modules/mtk_stp_bt.ko \
 	device/micromax/a110/prebuilt/lib/modules/mtk_stp_bt_mt6620.ko:system/lib/modules/mtk_stp_bt_mt6620.ko \
-	device/micromax/a110/prebuilt/lib/modules/mtk_stp_bt_mt6628.ko:system/lib/modules/mtk_stp_bt_mt6628.ko \
 	device/micromax/a110/prebuilt/lib/modules/mtk_stp_gps.ko:system/lib/modules/mtk_stp_gps.ko \
 	device/micromax/a110/prebuilt/lib/modules/mtk_stp_gps_mt6620.ko:system/lib/modules/mtk_stp_gps_mt6620.ko \
-	device/micromax/a110/prebuilt/lib/modules/mtk_stp_gps_mt6628.ko:system/lib/modules/mtk_stp_gps_mt6628.ko \
 	device/micromax/a110/prebuilt/lib/modules/mtk_stp_uart.ko:system/lib/modules/mtk_stp_uart.ko \
 	device/micromax/a110/prebuilt/lib/modules/mtk_stp_uart_mt6620.ko:system/lib/modules/mtk_stp_uart_mt6620.ko \
-	device/micromax/a110/prebuilt/lib/modules/mtk_stp_uart_mt6628.ko:system/lib/modules/mtk_stp_uart_mt6628.ko \
 	device/micromax/a110/prebuilt/lib/modules/mtk_stp_wmt.ko:system/lib/modules/mtk_stp_wmt.ko \
 	device/micromax/a110/prebuilt/lib/modules/mtk_stp_wmt_mt6620.ko:system/lib/modules/mtk_stp_wmt_mt6620.ko \
-	device/micromax/a110/prebuilt/lib/modules/mtk_stp_wmt_mt6628.ko:system/lib/modules/mtk_stp_wmt_mt6628.ko \
 	device/micromax/a110/prebuilt/lib/modules/mtk_wmt_wifi.ko:system/lib/modules/mtk_wmt_wifi.ko \
 	device/micromax/a110/prebuilt/lib/modules/mtk_wmt_wifi_mt6620.ko:system/lib/modules/mtk_wmt_wifi_mt6620.ko \
-	device/micromax/a110/prebuilt/lib/modules/mtk_wmt_wifi_mt6628.ko:system/lib/modules/mtk_wmt_wifi_mt6628.ko \
 	device/micromax/a110/prebuilt/lib/modules/mtklfb.ko:system/lib/modules/mtklfb.ko \
 	device/micromax/a110/prebuilt/lib/modules/pvrsrvkm.ko:system/lib/modules/pvrsrvkm.ko \
 	device/micromax/a110/prebuilt/lib/modules/scsi_tgt.ko:system/lib/modules/scsi_tgt.ko \
 	device/micromax/a110/prebuilt/lib/modules/scsi_wait_scan.ko:system/lib/modules/scsi_wait_scan.ko \
 	device/micromax/a110/prebuilt/lib/modules/sec.ko:system/lib/modules/sec.ko \
 	device/micromax/a110/prebuilt/lib/modules/vcodec_kernel_driver.ko:system/lib/modules/vcodec_kernel_driver.ko \
-	device/micromax/a110/prebuilt/lib/modules/wlan.ko:system/lib/modules/wlan.ko \
 	device/micromax/a110/prebuilt/lib/modules/wlan_mt6620.ko:system/lib/modules/wlan_mt6620.ko \
 	device/micromax/a110/prebuilt/lib/modules/wlan_mt6628.ko:system/lib/modules/wlan_mt6628.ko
 	
@@ -105,6 +106,7 @@ PRODUCT_COPY_FILES += \
 	device/micromax/a110/prebuilt/features/gpsconfig.xml:system/etc/permissions/gpsconfig.xml
 	
 # Copy Input files
+PRODUCT_COPY_FILES += \
 	device/micromax/a110/prebuilt/usr/keylayout/ACCDET.kl:system/usr/keylayout/ACCDET.kl \
 	device/micromax/a110/prebuilt/usr/keylayout/AVRCP.kl:system/usr/keylayout/AVRCP.kl \
 	device/micromax/a110/prebuilt/usr/keylayout/Generic.kl:system/usr/keylayout/Generic.kl \
