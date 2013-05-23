@@ -64,6 +64,23 @@ PRODUCT_COPY_FILES += \
 	device/micromax/a110/prebuilt/lib/modules/wlan_mt6620.ko:system/lib/modules/wlan_mt6620.ko \
 	device/micromax/a110/prebuilt/lib/modules/wlan_mt6628.ko:system/lib/modules/wlan_mt6628.ko
 	
+# Copy hw libraries
+PRODUCT_COPY_FILES += \
+	device/micromax/a110/prebuilt/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
+	device/micromax/a110/prebuilt/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
+	device/micromax/a110/prebuilt/lib/hw/audio_policy.stub.so:system/lib/hw/audio_policy.stub.so \
+	device/micromax/a110/prebuilt/lib/hw/camera.default.so:system/lib/hw/camera.default.so \
+	device/micromax/a110/prebuilt/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+	device/micromax/a110/prebuilt/lib/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \
+	device/micromax/a110/prebuilt/lib/hw/hwcomposer.mt6577.so:system/lib/hw/hwcomposer.mt6577.so \
+	device/micromax/a110/prebuilt/lib/hw/keystore.default.so:system/lib/hw/keystore.default.so \
+	device/micromax/a110/prebuilt/lib/hw/libaudio.usb.default.so:system/lib/hw/libaudio.usb.default.so \
+	device/micromax/a110/prebuilt/lib/hw/lights.default.so:system/lib/hw/lights.default.so \
+	device/micromax/a110/prebuilt/lib/hw/local_time.default.so:system/lib/hw/local_time.default.so \
+	device/micromax/a110/prebuilt/lib/hw/mmumapper.mt6577.so:system/lib/hw/mmumapper.mt6577.so \
+	device/micromax/a110/prebuilt/lib/hw/power.default.so:system/lib/hw/power.default.so \
+	device/micromax/a110/prebuilt/lib/hw/sensors.mt6577.so:system/lib/hw/sensors.mt6577.so 
+	
 # Copy features
 PRODUCT_COPY_FILES += \
 	device/micromax/a110/prebuilt/features/android.hardware.bluetooth.xml:system/etc/permissions/android.hardware.bluetooth.xml \
