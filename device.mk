@@ -35,7 +35,7 @@ PRODUCT_COPY_FILES += \
 	device/micromax/a110/prebuilt/lib/modules/devapc.ko:system/lib/modules/devapc.ko \
 	device/micromax/a110/prebuilt/lib/modules/devinfo.ko:system/lib/modules/devinfo.ko \
 	device/micromax/a110/prebuilt/lib/modules/eeprom_93cx6.ko:system/lib/modules/eeprom_93cx6.ko \
-	device/micromax/a110/prebuilt/lib/modules/mtk_drvb_77.ko.ko:system/lib/modules/mtk_drvb_77.ko.ko \
+	device/micromax/a110/prebuilt/lib/modules/mtk_drvb_77.ko:system/lib/modules/mtk_drvb_77.ko \
 	device/micromax/a110/prebuilt/lib/modules/m4u.ko:system/lib/modules/m4u.ko \
 	device/micromax/a110/prebuilt/lib/modules/p2p_mt6628.ko:system/lib/modules/p2p_mt6628.ko \
 	device/micromax/a110/prebuilt/lib/modules/p2p_mt6620.ko:system/lib/modules/p2p_mt6620.ko \

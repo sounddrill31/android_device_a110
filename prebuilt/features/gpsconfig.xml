@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <glgps xmlns="http://www.glpals.com/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.glpals.com/ glconfig.xsd" >
 
 <!-- It is highly recommended to view/edit this file with syntax-highlighting 
@@ -122,7 +122,6 @@ Re-aiding interval in seconds.
     req_pos.acc="1000"    
 />
 
-<!----------------------------------------------------------------------------->
 <!-- GLL Engine: See glgpsapi.h for supported parameters -->
 <gll 
     LogPriMask="LOG_INFO"
@@ -140,7 +139,6 @@ Re-aiding interval in seconds.
     pps-width-ns="100" 
 />
 
-<!----------------------------------------------------------------------------->
 <!-- List of jobs can be performed by the GPS controller    -->
 <!-- Periodic Position Fix using default settings -->
 <job id="normal">
