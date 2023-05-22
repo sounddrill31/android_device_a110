@@ -10,6 +10,7 @@ TARGET_NO_BOOTLOADER := true
 TARGET_ARCH_VARIANT := armv7-a-neon
 TARGET_ARCH_VARIANT_CPU := cortex-a9
 
+TARGET_CPU_VARIANT := mt6577
 # fix this up by examining /proc/mtd on a running device
 
 BOARD_BOOTIMAGE_PARTITION_SIZE := 0x00600000
