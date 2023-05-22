@@ -25,8 +25,8 @@ BOARD_SDCARD_INTERNAL_DEVICE := /dev/block/mmcblk1p1
 TARGET_PREBUILT_KERNEL := device/micromax/a110/prebuilt/kernel
 
 
-TARGET_GLOBAL_CFLAGS   += -mfpu=neon -mfloat-abi=softfp
-TARGET_GLOBAL_CPPFLAGS += -mfpu=neon -mfloat-abi=softfp
+#TARGET_GLOBAL_CFLAGS   += -mfpu=neon -mfloat-abi=softfp
+#TARGET_GLOBAL_CPPFLAGS += -mfpu=neon -mfloat-abi=softfp
 BOARD_EGL_CFG := device/micromax/a110/egl.cfg
 TARGET_USERIMAGES_USE_EXT4:=true
 TARGET_USERIMAGES_SPARSE_EXT_DISABLED := false
@@ -44,8 +44,8 @@ HAVE_CUSTOM_WIFI_HAL := mediatek
 WPA_SUPPLICANT_VERSION := VER_0_6_X
 P2P_SUPPLICANT_VERSION := VER_0_8_X
 
-BOARD_NAND_PAGE_SIZE := 4096
-BOARD_NAND_SPARE_SIZE := 128
+#BOARD_NAND_PAGE_SIZE := 4096
+#BOARD_NAND_SPARE_SIZE := 128
 
 
 # TWRP stuff
