@@ -71,3 +71,15 @@ SP2_MOUNTABLE := 0
 # CM stuff
 
 
+PB_GO := TRUE
+PB_FORCE_DD_FLASH := TRUE
+TW_EXCLUDE_ENCRYPTED_BACKUPS := TRUE
+TW_NO_EXFAT := true
+TW_EXCLUDE_SUPERSU := true
+#ARCH_ARM_HAVE_NEON := true
+TW_EXCLUDE_MTP := true
+TW_OEM_BUILD := true
+TW_NO_USB_STORAGE := true
+TW_NO_EXFAT_FUSE := true
+TW_INCLUDE_CRYPTO := false
+userdataencryptbackup=0
